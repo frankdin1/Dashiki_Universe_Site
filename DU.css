@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:black;
+}
+
+.logo{
+	width:12rem
+	height:20px;
+}
+
+.logo a{
+	text-transform: uppercase;
+	color: black;
+}
+
+.navbar{
+	display: flex;
+	align-items: center;
+	padding:20px;
+	/*background-color: red*/
+}
+.nav{
+	flex: 1;
+	text-align: right;
+	/*background-color: green;*/
+	padding:none;
+}
+
+.nav ul{
+	/*display: inline-block;*/
+	/*list-style-type: none;*/
+	/*padding-left:-100px;*/
+}
+
+.nav ul li{
+	display: inline-block;
+	margin-right: 1em;
+	color: black;
+}
+
+a{
+	text-decoration:none;
+	color: black;
+}
+
+.container{
+	max-width:1300px;
+	margin:auto;
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: center;
+}
+
+.row{
+	display:flex;
+	align-items: center;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+
+.col-2{
+	flex-basis: 50%;
+	min-width: 300px;
+}
+
+.col-2 img{
+	max-width:100%;
+	padding: 50px 0;
+	background:none;
+}
+
+.col-2 h1{
+	font-size: 50px;
+	line-height: 60px;
+	color:black;
+}
+
+.col-2 p{
+	color:black;
+}
+
+.btn{
+	display:inline-block;
+	background-color: brown;
+	color:orange;
+	padding:8px 30px;
+	margin:30px 0;
+	border-radius:10em;
+	transition: background-color 0.5s;
+}
+
+.btn:hover{
+	background-color:orange;
+	color:brown;
+}
+.header{
+	background: radial-gradient(#00FA9A,#7FFF00);
+}
+
+.header .row{
+	margin-top:100px;
+}
+
+.shop-categories {
+	width:5rem;
+	height: 45px;
+	background-color: blue;
+	display: inline-block;
+	margin-right:20px;
+	text-align: center;
+}
+
+
+.categories {
+	width:30rem;
+	height: 50px;
+	margin: 0 auto;
+}
